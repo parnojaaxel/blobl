@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE,edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Extra Family/Tactics Fraud Biolink">
+    <link rel="stylesheet" href="assets/stylesheets/icons.css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="32x32" href="assets/images/favicon-32x32.png" type="image/png">
+    <link rel="icon" sizes="16x16" href="assets/images/favicon-16x16.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" type="image/png">
+    <link rel="icon" sizes="192x192" href="assets/images/android-chrome-192x192.png" type="image/png">
+    <link rel="icon" sizes="512x512" href="assets/images/android-chrome-512x512.png" type="image/png">
+    <title>Fraud</title>
+    <style>
+        .blur-container {
+            filter: blur(10px);
+            transition: filter 1s;
+        }
+
+        audio {
+            display: none;
+        }
+
+        #clickToPlay {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            cursor: pointer;
+            color: white;
+            font-size: xx-large;
+        }
+
+        #links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #line {
+            border-bottom: 1px solid #e5ebf1;
+            max-width: 285px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blur-container">
+        <section id="about">
+            <div class="okokok">
+                <h1 style="font-size: 22px;"><span style="color: var(--accent)"></span> Group </h1>
+                <a><span style="padding: 8px 16px; word-break: break-word;">Tactics<3</span></a>
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center items-center space-x-2">
+                <div style="text-align: center;">
+                    <a href="https://discord.com/users/1142370838956478514" target="_blank">
+                        <img src="https://discord.c99.nl/widget/theme-4/1142370838956478514.png" style="width: 300px;">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="links">
+            <div class="flex justify-center items-center space-x-2">
+                <a href="https://steamcommunity.com/id/steamuserdead/" target="_blank" aria-label="steam @ fraud;"><i class="fa-brands steam"></i></a>
+                <a href="https://discord.gg/8mdMaJVpEz" target="_blank" aria-label="discord @ fraud;y"><i class="fa-brands discord"></i></a>
+                <a href="https://open.spotify.com/user/31p2mnzkmoo5l74vmtyikvxsx6ee?si=54a3fd5415fb4da4" target="_blank" aria-label="spotify @ T;y"><i class="fa-brands spotify"></i></a>
+                <a href="https://www.roblox.com/users/1003137902/profile" target="_blank" aria-label="roblox @ T;y"><i class="fa-brands hackerrank"></i></a>
+                <a href="https://www.instagram.com/stupidlarps/" target="_blank" aria-label="roblox @ T;y"><i class="fa-brands instagram"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <footer style="padding: 16px; display: flex; justify-content: center;">
+        <audio controls controlslist="nodownload noplaybackrate noremoteplayback" loop src="fraud.mp3" id="audio"></audio>
+
+<script>
+  var audio = document.getElementById('audio');
+
+  audio.volume = 0.07;
+</script>
+    </footer>
+
+    <div id="clickToPlay" onclick="playAudio()">[Click Here]</div>
+    <script>
+        function playAudio() {
+            document.querySelector(".blur-container").style.filter = "none";
+            var audio = document.querySelector("audio");
+            audio.play();
+
+            var clickToPlay = document.getElementById("clickToPlay");
+            clickToPlay.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
