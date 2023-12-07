@@ -15,10 +15,83 @@
     <link rel="icon" sizes="192x192" href="assets/images/android-chrome-192x192.png" type="image/png">
     <link rel="icon" sizes="512x512" href="assets/images/android-chrome-512x512.png" type="image/png">
     <title>main page</title>
+    <style>
+        /* CSS styles for the profile boxes */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Add a background color for better visibility */
+        }
+
+        .profile-box {
+            border: 2px solid white; /* white outline */
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            display: inline-block;
+            background-color: #333; /* Adjust background color */
+            color: white;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .profile-bio {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .profile-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+        .profile-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
 </head>
 
 <body>
-    hi in the works still if u see this
+    <div class="profile-box">
+        <a href="https://discord.com/users/1078777985911496724" target="_blank">
+            <img src="https://discord.c99.nl/widget/theme-4/1078777985911496724.png" style="width: 300px;">
+        </a>
+        <div class="profile-name">scamtactics</div>
+        <div class="profile-bio">Founding father of Tactics.</div>
+        <a href="https://extrafamily.pro/scam" class="profile-button">Visit Profile</a>
+    </div>
+
+    <div class="profile-box">
+        <a href="https://discord.com/users/1142370838956478514" target="_blank">
+            <img src="https://discord.c99.nl/widget/theme-4/1142370838956478514.png" style="width: 300px;">
+        </a>
+        <div class="profile-name">fraudtactics</div>
+        <div class="profile-bio">Founding father of Tactics.</div>
+        <a href="https://extrafamily.pro/fraud" class="profile-button">Visit Profile</a>
+    </div>
 </body>
 
 </html>
